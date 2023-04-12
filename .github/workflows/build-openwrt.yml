@@ -92,7 +92,7 @@ jobs:
       run: |
         cd openwrt
         rm -rf ./feeds/luci/applications/luci-app-unblockneteasemusic-go 
-
+        rm -rf feeds/luci/applications/luci-app-vlmcsd
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
 
