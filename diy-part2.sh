@@ -17,3 +17,5 @@ sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generat
 sed -i 's/ImmortalWrt/Openwrt/g' package/base-files/files/bin/config_generate
 
 rm -rf feeds/luci/applications/luci-app-nft-qos
+
+rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
