@@ -18,7 +18,7 @@ sed -i 's/ImmortalWrt/Openwrt/g' package/base-files/files/bin/config_generate
 
 rm -rf feeds/luci/applications/luci-app-nft-qos
 
-rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
+rm -rf ./feeds/luci/applications/luci-app-nft-qos
 
 rm -rf feeds/immortalwrt/luci/applications/luci-app-watchcat
 
