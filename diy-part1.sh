@@ -18,5 +18,5 @@
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall;luci' >>feeds.conf.default
 # echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall;packages' >>feeds.conf.default
 # git clone https://github.com/ilxp/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
-git checkout https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic/branches/master package/luci-app-unblockneteasemusic
+git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic/branches/master package/luci-app-unblockneteasemusic
 
