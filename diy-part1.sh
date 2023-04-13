@@ -29,3 +29,5 @@ echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall;pa
 git clone -b master https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 echo 'src-svn packages https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-adbyby-plus' >>feeds.conf.default
 echo 'src-svn packages https://github.com/coolsnowwolf/luci/branches/openwrt-18.06-k5.4/applications/luci-app-firewall' >>feeds.conf.default
+echo 'src-svn packages https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-turboacc' >>feeds.conf.default
+echo 'src-svn packages https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-uhttpd' >>feeds.conf.default
