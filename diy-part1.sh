@@ -31,3 +31,8 @@ echo 'src-svn packages https://github.com/coolsnowwolf/luci/trunk/applications/l
 echo 'src-svn packages https://github.com/coolsnowwolf/luci/branches/openwrt-18.06-k5.4/applications/applications/luci-app-firewall' >>feeds.conf.default
 echo 'src-svn packages https://github.com/coolsnowwolf/luci/branches/openwrt-18.06-k5.4/applications/luci-app-turboacc' >>feeds.conf.default
 echo 'src-svn packages https://github.com/coolsnowwolf/luci/branches/openwrt-18.06-k5.4/applications/luci-app-uhttpd' >>feeds.conf.default
+echo 'src-svn packages https://github.com/coolsnowwolf/luci/branches/openwrt-18.06-k5.4/applications/luci-app-upnp' >>feeds.conf.default
+echo 'src-svn packages https://github.com/coolsnowwolf/luci/branches/openwrt-18.06-k5.4/applications/luci-app-watchcat' >>feeds.conf.default
+echo 'src-svn packages https://github.com/coolsnowwolf/luci/branches/openwrt-18.06-k5.4/applications/luci-app-timecontrol' >>feeds.conf.default
+echo 'src-svn packages https://github.com/coolsnowwolf/luci/branches/openwrt-18.06-k5.4/applications/luci-app-timewol' >>feeds.conf.default
+echo 'src-svn packages https://github.com/coolsnowwolf/luci/branches/openwrt-18.06-k5.4/applications/luci-app-nft-qos' >>feeds.conf.default
