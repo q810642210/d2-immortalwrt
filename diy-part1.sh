@@ -21,7 +21,6 @@
 
 rm -rf feeds/luci/applications/luci-app-timewol
 rm -rf feeds/luci/applications/luci-app-passwall
-rm -rf feeds/immortalwrt/luci/applications/luci-app-timecontrol
 rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
 
 
