@@ -18,9 +18,8 @@ sed -i '/^src-git luci/d' feeds.conf.default
 # echo 'src-git routing https://github.com/openwrt/routing.git' >> feeds.conf.default
 # echo 'src-git telephony https://github.com/openwrt/telephony.git' >> feeds.conf.default
 
-rm -rf feeds/luci/applications/luci-app-timewol
-rm -rf feeds/luci/applications/luci-app-passwall
-rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
+# rm -rf feeds/luci/applications/luci-app-timewol
+# rm -rf ./feeds/luci/applications/luci-app-adbyby-plus
 
 
 # Add a feed source
