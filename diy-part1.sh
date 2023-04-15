@@ -19,7 +19,12 @@
 
 
 # rm -rf feeds/luci/applications/luci-app-adbyby-plus
-rm -rf feeds/luci/themes/luci-yheme-argonne
+# rm -rf feeds/luci/applications/luci-app-adguardhome
+rm -rf feeds/luci/themes/luci-theme-argonne
+rm -rf feeds/luci/applications/ramfree
+rm -rf feeds/luci/applications/syncdial
+rm -rf feeds/luci/applications/fileassistant
+
 
 # Add a feed source
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall;luci' >>feeds.conf.default
