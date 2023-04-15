@@ -19,9 +19,8 @@
 
 
 # rm -rf feeds/luci/applications/luci-app-adbyby-plus
-# rm -rf feeds/luci/applications/luci-app-adguardhome
 # rm -rf feeds/luci/themes/luci-theme-argonne
-# rm -rf feeds/luci/applications/ramfree
+
 
 
 # Add a feed source
@@ -33,4 +32,4 @@ echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall;pa
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
 # 下面这条不知道行不行
-echo 'src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc' >> feeds.conf.default
+# echo 'src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc' >> feeds.conf.default
