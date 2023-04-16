@@ -19,8 +19,8 @@
 # 下面这条不知道行不行
 echo 'src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc' >> feeds.conf.default
 
-# rm -rf feeds/luci/applications/luci-app-adbyby-plus
-# rm -rf feeds/luci/themes/luci-theme-argonne
+rm -rf feeds/luci/applications/luci-app-adbyby-plus
+rm -rf feeds/luci/themes/luci-theme-argonne
 
 
 
