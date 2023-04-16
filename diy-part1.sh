@@ -17,7 +17,7 @@
 # echo 'src-git routing https://github.com/openwrt/routing.git' >> feeds.conf.default
 # echo 'src-git telephony https://github.com/openwrt/telephony.git' >> feeds.conf.default
 # 下面这条不知道行不行
-echo 'src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc' >> feeds.conf.default
+# echo 'src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc' >> feeds.conf.default
 
 rm -rf feeds/luci/applications/luci-app-adbyby-plus
 rm -rf feeds/luci/themes/luci-theme-argonne
