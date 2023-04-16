@@ -38,7 +38,11 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-18.06-k5.4
+  REPO_BRANCH: openwrt-22.03.0-k5.15.98
+## REPO_BRANCH: openwrt-18.06-k5.4  //原来上面的
+## 仓库版本 https://firmware-selector.openwrt.org/?version=22.03.4&target=ramips%2Fmt7621&id=d-team_newifi-d2 
+## 仓库版本 https://downloads.openwrt.org/releases/   https://downloads.openwrt.org/releases/22.03.0/
+## 内核版本 https://www.right.com.cn/forum/thread-8279691-1-1.html
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
