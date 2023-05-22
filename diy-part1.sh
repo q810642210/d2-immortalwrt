@@ -31,7 +31,7 @@
 # git clone -b master https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 # svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-adbyby-plus package/luci-app-adbyby-plus
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
-# # echo 'src-git small8 https://github.com/kenzok8/small-package' >> feeds.conf.default
+# # echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
+# # echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
+echo 'src-git small8 https://github.com/kenzok8/small-package' >> feeds.conf.default
 # # 是最后注释掉的  36行是最后添加的 应该用一个36行就可以了 
