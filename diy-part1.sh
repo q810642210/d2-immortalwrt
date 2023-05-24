@@ -34,5 +34,5 @@
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
 # # 是最后注释掉的  36行是最后添加的 应该用一个36行就可以了  上下2个测试
-echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >> feeds.conf.default
-echo 'src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc' >> feeds.conf.default
+# # echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >> feeds.conf.default
+# # echo 'src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc' >> feeds.conf.default
